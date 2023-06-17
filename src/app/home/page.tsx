@@ -2,11 +2,11 @@ export const metadata = {
   title: "Home",
 };
 
-export default function HomePage() {
+export default async function HomePage() {
   return (
     <>
       <h1>Home</h1>
-      <p>Blah</p>
+      <p>Spike on NextJS things...</p>
     </>
   );
 }
