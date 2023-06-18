@@ -14,6 +14,7 @@ model Band {
   @@map("bands")
 
   id String @id @default(uuid()) // @db.Uuid
+  // TODO createdAt, updatedAt
 
   name String
   albums Album[]
@@ -23,6 +24,7 @@ model Album {
   @@map("albums")
 
   id String @id @default(uuid()) // @db.Uuid
+  // TODO createdAt, updatedAt
 
   name String
   bandId String @map("band_id") // @db.Uuid
